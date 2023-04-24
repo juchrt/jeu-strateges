@@ -13,5 +13,7 @@ public class Jeu {
     public static void main(String[] args) {
         System.out.println("Bienvenue sur Jeu de Stratèges !");
         Partie partie = new Partie();
+
+        partie.initialiserPartie();
     }
 }
