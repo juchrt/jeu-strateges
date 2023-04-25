@@ -1,12 +1,12 @@
 public class Partie {
-    public String joueur;
+    public Joueur joueur;
     public String plateau;
 
     /**
      * Crée une nouvelle partie avec le joueur et le plateau.
      */
     public Partie() {
-        this.joueur = "Julie";
+        this.joueur = Joueur.initJoueur();
         this.plateau = "Plateau";
     }
 
@@ -14,6 +14,6 @@ public class Partie {
      * Initialise la partie.
      */
     public void initialiserPartie(){
-        System.out.println("Nouvelle partie. Bienvenue !");
+        System.out.println("Nouvelle partie. Bienvenue " + joueur.nom + " !");
     }
 }
