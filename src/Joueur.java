@@ -27,7 +27,7 @@ public class Joueur {
         System.out.flush();
         String nom = scanner.nextLine();
         scanner.close();
-
+        
         // init joueur avec le nom
         Joueur joueur = new Joueur(nom);
         return joueur;
