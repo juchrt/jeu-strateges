@@ -3,7 +3,7 @@ public class Partie {
     public String plateau;
 
     /**
-     * CrÃ©e une nouvelle partie avec le joueur et le plateau.
+     * Crée une nouvelle partie avec le joueur et le plateau.
      */
     public Partie() {
         this.joueur = Joueur.initJoueur();
