@@ -14,6 +14,11 @@ public class Jeu {
         System.out.println("Bienvenue sur Jeu de Stratèges !");
         Partie partie = new Partie();
 
+        // début de la partie
         partie.initialiserPartie();
+
+        // déroulé de la partie
+
+        // fin de la partie
     }
 }
