@@ -17,7 +17,7 @@ public class Coffre {
      */
     public void initCoffre(){
         for (TypeRessource typeRessource : TypeRessource.values()) {
-            this.ressources.put(typeRessource, 0);
+            this.ressources.put(typeRessource, 5);
         }
     }
 
