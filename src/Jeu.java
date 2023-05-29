@@ -18,6 +18,7 @@ public class Jeu {
         partie.initialiserPartie();
 
         // déroulé de la partie
+        partie.deroulePartie();
 
         // fin de la partie
     }

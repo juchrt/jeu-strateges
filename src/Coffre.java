@@ -1,8 +1,10 @@
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Coffre {
     public Map<TypeRessource,Integer> ressources;
+    public List<Batiment> batiments;
 
     /**
      * Construit un nouveau coffre
